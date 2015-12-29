@@ -141,12 +141,30 @@ $(function(){
       if(i == 20 && j ==5) l = true;
       if(i == 20 && j ==6) l = true;
 
-      if(i == 32 && j ==6) l = true;
-      if(i == 32 && j ==7) l = true;
-      if(i == 33 && j ==7) l = true;
+      if(i == 26 && j ==7) l = true;
+      if(i == 26 && j ==8) l = true;
+      if(i == 26 && j ==9) l = true;
+      if(i == 27 && j ==7) l = true;
+      if(i == 28 && j ==8) l = true;
+
+      if(i == 45 && j ==10) l = true;
+      if(i == 45 && j ==11) l = true;
+      if(i == 45 && j ==12) l = true;
+      if(i == 46 && j ==10) l = true;
+      if(i == 47 && j ==11) l = true;
+
+      if(i == 36 && j ==15) l = true;
+      if(i == 35 && j ==15) l = true;
+      if(i == 34 && j ==15) l = true;
+      if(i == 34 && j ==16) l = true;
+      if(i == 35 && j ==17) l = true;
+
+      if(i == 32 && j ==4) l = true;
+      if(i == 32 && j ==5) l = true;
       if(i == 33 && j ==5) l = true;
-      if(i == 34 && j ==5) l = true;
-      if(i == 34 && j ==6) l = true;
+      if(i == 33 && j ==3) l = true;
+      if(i == 34 && j ==3) l = true;
+      if(i == 34 && j ==4) l = true;
 
       if(i == 44 && j ==4) l = true;
       if(i == 44 && j ==3) l = true;
@@ -200,5 +218,5 @@ $(function(){
     calculate(num, prev_num);
   }
   simulate();
-  setInterval(simulate, 200);
+  setInterval(simulate, 100);
 })
